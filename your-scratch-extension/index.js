@@ -17,7 +17,7 @@ class Scratch3YourExtension {
             id: 'yourScratchExtension',
 
             // name that will be displayed in the Scratch UI
-            name: 'Demo',
+            name: 'Very Cool Blocks',
 
             // colours to use for your extension blocks
             color1: '#000099',
@@ -41,7 +41,7 @@ class Scratch3YourExtension {
                     blockType: BlockType.REPORTER,
 
                     // label to display on the block
-                    text: 'My first block [MY_NUMBER] and [MY_STRING]',
+                    text: 'very cool block I made',
 
                     // true if this block should end a stack
                     terminal: false,
@@ -56,7 +56,7 @@ class Scratch3YourExtension {
                     arguments: {
                         MY_NUMBER: {
                             // default value before the user sets something
-                            defaultValue: 123,
+                            defaultValue: "this is a string",
 
                             // type/shape of the parameter - choose from:
                             //     ArgumentType.ANGLE - numeric value with an angle picker
@@ -65,11 +65,11 @@ class Scratch3YourExtension {
                             //     ArgumentType.NUMBER - numeric value
                             //     ArgumentType.STRING - text value
                             //     ArgumentType.NOTE - midi music value with a piano picker
-                            type: ArgumentType.NUMBER
+                            type: ArgumentType.STRING
                         },
                         MY_STRING: {
                             // default value before the user sets something
-                            defaultValue: 'hello',
+                            defaultValue: 'put text here',
 
                             // type/shape of the parameter - choose from:
                             //     ArgumentType.ANGLE - numeric value with an angle picker
@@ -93,7 +93,7 @@ class Scratch3YourExtension {
      */
     myFirstBlock ({ MY_NUMBER, MY_STRING }) {
         // example implementation to return a string
-        return MY_STRING + ' : doubled would be ' + (MY_NUMBER * 2);
+        return MY_STRING + ' : added ' + (MY_NUMBER);
     }
 }
 

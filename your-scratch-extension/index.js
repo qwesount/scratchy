@@ -20,12 +20,12 @@ class Scratch3YourExtension {
             name: 'Very Cool Blocks',
 
             // colours to use for your extension blocks
-            color1: '#000099',
-            color2: '#660066',
+            color1: '#FBFF00',
+            color2: '#FBFF00',
 
             // icons to display
-            blockIconURI: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAAAAACyOJm3AAAAFklEQVQYV2P4DwMMEMgAI/+DEUIMBgAEWB7i7uidhAAAAABJRU5ErkJggg==',
-            menuIconURI: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAAAAACyOJm3AAAAFklEQVQYV2P4DwMMEMgAI/+DEUIMBgAEWB7i7uidhAAAAABJRU5ErkJggg==',
+            blockIconURI: 'your-extension-icon.png',
+            menuIconURI: 'your-extension-icon.png',
 
             // your Scratch blocks
             blocks: [
